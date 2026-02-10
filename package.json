@@ -1,15 +1,15 @@
 {
-  "name": "react-native-charts-wrapper",
+  "name": "react-native-charts-wrapper2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wuxudong/react-native-charts-wrapper.git"
+    "url": "https://github.com/TouchMedia360/react-native-charts-wrapper2.git"
   },
-  "version": "0.6.0",
+  "version": "0.6.5",
   "description": "A react-native charts support both android and iOS.",
   "author": "wuxudong",
   "license": "MIT",
   "nativePackage": true,
-  "homepage": "https://github.com/wuxudong/react-native-charts-wrapper",
+  "homepage": "https://github.com/TouchMedia360/react-native-charts-wrapper2",
   "keywords": [
     "react native",
     "chart",
@@ -36,5 +36,6 @@
   },
   "peerDependencies": {
     "react": ">=16.0.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

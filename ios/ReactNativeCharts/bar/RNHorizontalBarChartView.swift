@@ -29,6 +29,11 @@ class RNHorizontalBarChartView: RNBarChartViewBase {
         self.addSubview(_chart)
     }
 
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        _chart.frame = self.bounds
+    }
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

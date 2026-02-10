@@ -1,4 +1,14 @@
-# React Native Charts Wrapper
+# Fork note
+
+This is a fork of [wuxudong/react-native-charts-wrapper](https://github.com/wuxudong/react-native-charts-wrapper) that patches issues on iOS.
+
+Thanks to @wuxudong for the original work! It is a great project.
+
+Thanks to @baran-ozer for initial patch `enda-react-native-charts-wrapper`.
+
+And thank to Claude Opus for continuing the patches. We fixed BarChart issue on iOS.
+
+# React Native Charts Wrapper2
 This library is React Native wrapper of popular Native charting library [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) and [Charts](https://github.com/danielgindi/Charts)
 
 
@@ -10,10 +20,10 @@ React Native Charts Wrapper is built on MPAndroidChart(v3.1.0) & Charts(v3.3.0),
 
 
 ### ANDROID 
-![](https://raw.githubusercontent.com/wuxudong/react-native-charts-wrapper/master/screenshot/Android%20ScreenShot.png)
+![](https://raw.githubusercontent.com/TouchMedia360/react-native-charts-wrapper2/master/screenshot/Android%20ScreenShot.png)
 
 ### IOS
-![](https://raw.githubusercontent.com/wuxudong/react-native-charts-wrapper/master/screenshot/IOS%20ScreenShot.png)
+![](https://raw.githubusercontent.com/TouchMedia360/react-native-charts-wrapper2/master/screenshot/IOS%20ScreenShot.png)
 
 ## Supported Chart Type
 
@@ -32,7 +42,7 @@ React Native Charts Wrapper is built on MPAndroidChart(v3.1.0) & Charts(v3.3.0),
 ### expo
 1. expo init demo
 2. cd demo
-3. expo install react-native-charts-wrapper
+3. expo install react-native-charts-wrapper2
 4. eas build 
 
 ### react-native
@@ -40,7 +50,7 @@ React Native Charts Wrapper is built on MPAndroidChart(v3.1.0) & Charts(v3.3.0),
 
 -  npx react-native init demo 
 -  cd demo 
--  npm install --save react-native-charts-wrapper
+-  npm install --save react-native-charts-wrapper2
 -  cd ios && pod install 
 -  npx react-native run-ios/run-android
 
@@ -58,7 +68,7 @@ import {
   View, processColor
 } from 'react-native';
 
-import {LineChart} from 'react-native-charts-wrapper';
+import {LineChart} from 'react-native-charts-wrapper2';
 
 export default class App extends React.Component {
 
@@ -87,7 +97,7 @@ const styles = StyleSheet.create({
 
 ```
 
-![](https://raw.githubusercontent.com/wuxudong/react-native-charts-wrapper/master/screenshot/iOS.png)
+![](https://raw.githubusercontent.com/TouchMedia360/react-native-charts-wrapper2/master/screenshot/iOS.png)
 
 
 
